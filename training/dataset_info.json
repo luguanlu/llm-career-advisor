@@ -1,0 +1,17 @@
+{
+  "tech_advisor": {
+    "file_name": "tech_advisor_train.json"
+  },
+  "tech_advisor_test": {
+    "file_name": "tech_advisor_test.json"
+  },
+  "tech_advisor_30": {
+    "file_name": "data_scale/tech_advisor_train_30.json"
+  },
+  "tech_advisor_60": {
+    "file_name": "data_scale/tech_advisor_train_60.json"
+  },
+  "tech_advisor_100": {
+    "file_name": "data_scale/tech_advisor_train_100.json"
+  }
+}

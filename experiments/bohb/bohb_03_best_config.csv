@@ -1,0 +1,12 @@
+parameter,value
+lora_rank,8
+lora_alpha,32
+lora_dropout,0.1
+learning_rate,5e-5
+warmup_ratio,0.1
+lr_scheduler_type,linear
+num_train_epochs,3.0
+max_steps,100
+val_size,0.001
+eval_steps,50
+output_dir,saves/bohb/llama3-8b/stage1/bohb_03

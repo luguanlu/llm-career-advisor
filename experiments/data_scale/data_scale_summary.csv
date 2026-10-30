@@ -1,0 +1,4 @@
+data_scale,train_samples,train_loss,eval_loss,generalization_gap,train_runtime,train_samples_per_second,output_dir
+30%,243,0.965670690536499,0.967933714389801,0.0022630238533020153,720.514,1.11,saves/data_scale/llama3-8b/data_30
+60%,486,0.9911252403259277,0.6056045889854431,-0.38552065134048463,745.17,1.074,saves/data_scale/llama3-8b/data_60
+100%,810,0.9992505741119385,0.6369497776031494,-0.3623007965087891,734.5747,1.089,saves/data_scale/llama3-8b/data_100

@@ -1,0 +1,31 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python and notebook artefacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Generated datasets and outputs
+outputs/
+logs/
+log/
+saves/
+checkpoints/
+wandb/
+*.log
+nohup.out
+
+# Large local ML artefacts
+models/
+model_cache/
+*.bin
+*.safetensors
+*.ckpt
+
+# Raw job data should be obtained in accordance with each source's terms.
+data/raw/

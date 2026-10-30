@@ -1,0 +1,10 @@
+experiment_id,data_scale,base_model,tuning_strategy,config_path,output_dir,train_loss,eval_loss,generation_score,sn_ratio,status
+T1,30%,Qwen,Baseline,,saves/taguchi/T1,,,,,planned
+T2,30%,LLaMA3,BOHB-best,,saves/taguchi/T2,,,,,planned
+T3,30%,GLM,BOHB+NEFTune,,saves/taguchi/T3,,,,,planned
+T4,60%,Qwen,BOHB-best,,saves/taguchi/T4,,,,,planned
+T5,60%,LLaMA3,BOHB+NEFTune,,saves/taguchi/T5,,,,,planned
+T6,60%,GLM,Baseline,,saves/taguchi/T6,,,,,planned
+T7,100%,Qwen,BOHB+NEFTune,,saves/taguchi/T7,,,,,planned
+T8,100%,LLaMA3,Baseline,,saves/taguchi/T8,,,,,planned
+T9,100%,GLM,BOHB-best,,saves/taguchi/T9,,,,,planned

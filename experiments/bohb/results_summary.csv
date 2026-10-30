@@ -1,0 +1,13 @@
+config,lora_rank,lora_alpha,lora_dropout,learning_rate,warmup_ratio,lr_scheduler_type,output_dir,train_loss,eval_loss,completed,error
+bohb_stage1_01,8,16,0.0,1e-5,0.03,linear,saves/bohb/llama3-8b/stage1/bohb_01,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_02,8,16,0.05,2e-5,0.05,cosine,saves/bohb/llama3-8b/stage1/bohb_02,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_03,8,32,0.1,5e-5,0.1,linear,saves/bohb/llama3-8b/stage1/bohb_03,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_04,16,16,0.0,2e-5,0.03,cosine,saves/bohb/llama3-8b/stage1/bohb_04,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_05,16,32,0.05,5e-5,0.05,linear,saves/bohb/llama3-8b/stage1/bohb_05,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_06,16,64,0.1,1e-5,0.1,cosine,saves/bohb/llama3-8b/stage1/bohb_06,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_07,32,16,0.0,5e-5,0.03,linear,saves/bohb/llama3-8b/stage1/bohb_07,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_08,32,32,0.05,1e-5,0.05,cosine,saves/bohb/llama3-8b/stage1/bohb_08,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_09,32,64,0.1,2e-5,0.1,linear,saves/bohb/llama3-8b/stage1/bohb_09,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_10,8,64,0.1,2e-5,0.03,cosine,saves/bohb/llama3-8b/stage1/bohb_10,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_11,8,32,0.1,1e-5,0.05,linear,saves/bohb/llama3-8b/stage1/bohb_11,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
+bohb_stage1_12,16,16,0.05,5e-5,0.03,cosine,saves/bohb/llama3-8b/stage1/bohb_12,,,False,nohup: failed to run command 'llamafactory-cli': No such file or directory
