@@ -35,9 +35,14 @@ Hyperparameter, data-scale, and NEFTune ablations
 | `training/` | Project-specific SFT train/predict scripts, dataset registry, and train/test splits. |
 | `experiments/` | BOHB-style configuration search, data-scale experiments, Taguchi configurations, result tables, and figures. |
 | `ablation/` | NEFTune comparison configurations, metrics, and saved plots. |
-| `docs/project_report.pdf` | Project report supplied with the original project package. |
+| `docs/` | Final group report and presentation slides for the project. |
 
 Raw scraped job postings, model checkpoints, logs, caches, and API credentials are intentionally excluded. The tracked SFT data is the curated project dataset used by the training configurations.
+
+## Project materials
+
+- [Final project report](docs/llm-internship-recommendation-report.docx) (Chinese)
+- [Presentation slides](docs/llm-internship-recommendation-presentation.pptx) (English)
 
 ## Requirements
 
